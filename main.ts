@@ -87,4 +87,6 @@ let Left_paddle: Sprite = null
 Crate_Ball()
 Left_Paddle()
 Right_Paddle()
-music.playMelody("G B A G C5 B A B ", 120)
+forever(function () {
+    music.playMelody("G B A G C5 B A B ", 175)
+})
